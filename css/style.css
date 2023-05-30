@@ -329,7 +329,7 @@ color: #48555B;
   width: 150px;
   height:40px;
   border: none;
-  background-color: #00A4E5;
+  background-color: #48555B;
   font-weight: bold;
   letter-spacing: 0.5px;
   margin: 0 auto;
@@ -337,9 +337,9 @@ color: #48555B;
 }
 
 .get_in_touch:hover{
-    background-color: #fff;
-    border: #00A4E5 solid 2px;
-    color: #00A4E5;
+  background-color: #fff;
+  border: #48555B solid 2px;
+  color: #48555B
   }
 
 .touch_h{
@@ -413,9 +413,10 @@ margin-right: 70px;
   color: #fff;
 }
 .signup_btn:hover{
-    background-color: #fff;
-    border: #00A4E5 solid 2px;
-    color: #00A4E5;
+    background-color: #171819;
+    border: #48555B solid 2px;
+    color: #fff;
+    border-left: 0px;
   }
 
 
@@ -639,6 +640,11 @@ max-width: 80%;
     width: 90%;
   margin: 0 auto;
   }
+
+  .company_p{
+    font-size: 0.6em;
+  }
+
 }
 
 
@@ -705,11 +711,11 @@ font-size: 90%;
     background-color: #00A4E5;
     margin-top: 10px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
   
   .capa_p {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   }
   .all_services {
   margin-bottom: 30px;
@@ -718,7 +724,7 @@ font-size: 90%;
 
 
   .services{
-    max-height: 900px;
+    max-height: 980px;
   }
 
   .services_elements {
@@ -775,16 +781,161 @@ flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
+.footer_inl{
+  max-height:900px;
+}
+
+.footer{
+  max-height:900px;
+}
+
+.company{
+  padding-bottom: 15px;
+  border-bottom: 1px solid #212a33;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+
+
+.links{
+  padding-bottom: 15px;
+  border-bottom: 1px solid #212a33;
+  max-width:100%;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+
+
+.contact{
+  padding-bottom: 15px;
+  max-width:100%;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.icons{
+  padding-bottom: 15px;
+  max-width:100%;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 25px;
+}
+
+
+.links{
+
+}
+
+
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 530px) {
   .story_h{
-font-size: 11px;
+    font-size: 0.6em;
   }
   
   .story_p{
-    font-size: 11px;
+    font-size: 0.6em;
 
+  }
+  .story_img:nth-child(1) {
+    font-size: 17px;
+    width: 90px;
+    height: 100px;
+  }
+  
+  .story_img:nth-child(2) {
+    font-size: 17px;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .story_img:nth-child(3) {
+    font-size: 17px;
+    width: 90px;
+    height: 100px;
+  }
+  
+  .footer_inl{
+    max-height:900px;
+  }
+
+  .footer{
+    max-height:900px;
+  }
+
+  .company{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #212a33;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+
+
+  .links{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #212a33;
+    max-width:100%;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+
+
+  .contact{
+    padding-bottom: 15px;
+    max-width:100%;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .icons{
+    padding-bottom: 15px;
+    max-width:100%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 25px;
+  }
+
+  .signup_input{
+    max-width: 150px;
+  }
+
+
+  .story{
+    margin-bottom: 180px;
+  }
+
+  .nav_list{
+    justify-content:left;
+  }
+  .list_element{
+    margin-right: 5px;
+    font-size: 5px;
+    margin-bottom: 5px;
   }
 }
